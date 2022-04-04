@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --red:#e84118;
+    --heding_background:#7f8fa6;
+    --link:#40739e;
+    --button:#192a56;
+    --whilte:#f5f6fa;
+    --black:#000000;
+    --green:#b8e994;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-header{
+width: 100%;
+background-color: var(--heding_background);
+box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+.header-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1366px;
+    align-items: center;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+.name h3{
+    color: var(--whilte);
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu ul li{
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    margin: 20px;
+    color: var(--green);
+    font-size: 1.5em;
+    font-weight: 500;
+    transition: all 400ms ease;
+}
+
+.menu a:hover{
+    color: var(--black);
+}
+
+.btn button{
+    padding: 5px 27px;
+    background-color: var(--green);
+    border: none;
+    color: var(--red);
+    font-size: 1.2em;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5em;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    color: var(--button);
+}
+
+.section-part{
+    background-color: var(--link);
+    max-width: 100%;
+    margin: auto;
+}
+
+.welcome h2{
+    color: var(--black);
+    font-size: 1.5em;
+    font-weight: 400px;
+    padding-left: 40%;
+}
+
+.row1 ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row1 ul li{
+    list-style: none;
+}
+
+.row1 ul li img{
+    margin: 60px;
+}
+.row1 ul li a{
+    margin: 160px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 400;
+    transition: all 400ms ease;
+}
+.row2 ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row2 ul li{
+    list-style: none;
+}
+
+.row2 ul li img{
+    margin: 60px;
+}
+
+.row2 ul li a{
+    margin: 150px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 400;
+    transition: all 400ms ease;
+}
+
+.foot{
+    background-color: var(--black);
+    color: var(--whilte);
+    font-size: 1em;
+    padding: 0px 620px;
+}
